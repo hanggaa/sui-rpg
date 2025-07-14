@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@suiet/wallet-kit/style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ninja Demit</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1>Ninja Demit (Stickman Adventure)</h1>
+    <div id="wallet-button-container"></div>
+    <div class="container">
+        <div class="panel" id="character-panel">
+            <h2>Karakter Anda</h2>
+            <p><strong>Status:</strong> <span id="connection-status">Belum Terhubung</span></p>
+            <p><strong>Alamat:</strong> <span id="player-address">-</span></p>
+            <hr>
+            <h3>Equipment</h3>
+            <p><strong>Senjata:</strong> <span id="equipped-weapon">-</span> (Damage: <span id="weapon-damage">0</span>)</p>
+            <p><strong>Armor:</strong> <span id="equipped-armor">-</span> (Defense: <span id="armor-defense">0</span>)</p>
+        </div>
+        <div class="panel" id="inventory-panel">
+            <h2>Inventaris</h2>
+            <button id="buy-starter-pack-btn" style="display: none;">Beli Starter Pack (0.06 SUI)</button>
+            <div id="inventory-list"></div>
+        </div>
+    </div>
+    <div class="container" id="battle-arena" style="display: none;">
+         <div class="panel">
+            <h2>VS</h2>
+            <p><strong>Monster:</strong> Stickman Jahat</p>
+            <p><strong>HP:</strong> <span id="monster-hp">100</span></p>
+            <button id="attack-btn">Serang!</button>
+        </div>
+    </div>
+    <h2>Game Log</h2>
+    <div id="game-log"></div>
+
+    <script type="module" src="/main.js"></script>
+</body>
+</html>
