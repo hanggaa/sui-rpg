@@ -1,0 +1,8 @@
+Package ID (Alamat dari kode/logika Anda):
+0x35d64f0176fd714ce5abdd178464bde4962c9bba7cbad64527acef3f96cdb72d
+
+AdminCap ID (Kunci Admin Anda):
+0xfbbd3400593bc7379a7dff6a87d380340d42c1e3bd399c968fcf4887a0eebba8
+
+TreasuryCap ID (Kunci untuk mencetak token $GOLD):
+0x642b408aab5d0c2749508b39c82683129b04eb04e892c13029d5d7fea1888e40
